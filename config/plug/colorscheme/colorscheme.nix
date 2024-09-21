@@ -1,11 +1,13 @@
-{ config, ... }:
-{
+_: {
   colorschemes = {
-    base16 = {
+    catppuccin = {
       enable = true;
-      setUpBar = false;
-      colorscheme = import ../../colors/${config.theme}.nix { };
       settings = {
+        background.dark = "macchiato";
+        background.light = "latte";
+        dim_inactive.enable = true;
+        flavour = "macchiato";
+        term_colors = true;
         cmp = true;
         illuminate = true;
         indentblankline = true;
