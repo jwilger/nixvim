@@ -31,8 +31,8 @@
   };
   opts = {
     # Enable relative line numbers
-    number = false;
-    relativenumber = true;
+    number = true;
+    relativenumber = false;
 
     # Set tabs to 2 spaces
     tabstop = 2;
@@ -52,7 +52,7 @@
     incsearch = true;
 
     # Enable text wrap
-    wrap = true;
+    wrap = false;
 
     # Better splitting
     splitbelow = true;
@@ -101,7 +101,7 @@
     foldenable = true;
 
     # Always keep 8 lines above/below cursor unless at start/end of file
-    scrolloff = 8;
+    scrolloff = 20;
 
     # Place a column line
     # colorcolumn = "80";
