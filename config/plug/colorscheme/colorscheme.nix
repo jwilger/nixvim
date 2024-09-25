@@ -15,6 +15,7 @@ _: {
         mini_completion = true;
         telescope = true;
         telescope_borders = false;
+        alpha = true;
       };
     };
   };

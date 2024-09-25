@@ -16,6 +16,12 @@
 
     {
       mode = "n";
+      key = "<leader>e";
+      action = "<cmd>NvimTreeToggle<cr>";
+    }
+
+    {
+      mode = "n";
       key = "<leader>s";
       action = "+search";
     }
