@@ -12,4 +12,8 @@
       showOnOpenDirs = false;
     };
   };
+
+  plugins.web-devicons = {
+    enable = true;
+  };
 }
