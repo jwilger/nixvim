@@ -21,7 +21,7 @@ in
         "                                                               "
         "                                                               "
         "                                                               "
-        "                       git@github.com:elythh                   "
+        "                       https://github.com/jwilger/nixvim       "
       ];
     in
     {
