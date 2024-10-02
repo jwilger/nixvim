@@ -36,6 +36,11 @@
         yamlls = {
           enable = true;
         };
+        rust-analyzer = {
+          enable = true;
+          installCargo = true;
+          installRustc = true;
+        };
       };
       keymaps = {
         silent = true;
