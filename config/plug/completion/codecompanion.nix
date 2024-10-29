@@ -24,13 +24,13 @@ in
     require("codecompanion").setup({
        strategies = {
          chat = {
-           adapter = "anthropic",
+           adapter = "copilot",
          },
          inline = {
-           adapter = "anthropic",
+           adapter = "copilot",
          },
          agent = {
-           adapter = "anthropic",
+           adapter = "copilot",
          },
        },
     }
