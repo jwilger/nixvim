@@ -46,6 +46,7 @@
     #./plug/ui/precognition.nix
     ./plug/ui/telescope.nix
 
+    ./plug/utils/better-escape.nix
     ./plug/utils/colorizer.nix
     ./plug/utils/comment-box.nix
     ./plug/utils/comment.nix
