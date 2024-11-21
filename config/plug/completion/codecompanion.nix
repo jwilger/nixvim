@@ -3,7 +3,7 @@ let
   inherit (lib) mkIf;
 
   pname = "codecompanion";
-  version = "v2.2.0";
+  version = "v10.0.1";
 
   codecompanion_enable = true;
 in
